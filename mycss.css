@@ -1,0 +1,96 @@
+@import "compass/css3";
+
+body {
+  background:white;
+}
+
+.todo-wrapper{
+  background:white;
+  width:100%;
+}
+
+h2 {
+  font-size:2em;
+  font-style:italic;
+  font-family:san-serif;
+  background:brown;
+  padding:40px;
+  margin: 0;
+  color:white;
+  text-align:center;
+ }
+.emphasis {
+  font-family:vast-shadow,san-serif;
+  font-size:4em;
+}
+
+ul {
+  padding:0px;
+  margin:0px;
+}
+
+li {
+  font-family:san-serif;
+  font-size:2em;
+  padding:40px;
+  color:brown;
+  font-style:italic;
+  background:lightyellow; /* Old browsers */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(lightyellow), to(brown));
+  background:-webkit-linear-gradient(lightyellow 0%, brown 100%);
+  background:-moz-linear-gradient( lightyellow 0%,brown 100%);
+  background:-o-linear-gradient(lightyellow 0%, brown 100%);
+  background:linear-gradient( lightyellow 0%,brown100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='lightyellow', endColorstr='brown',GradientType=0 );
+  list-style-type:none;
+  margin-left:0px;
+  padding-left:0px;
+}
+
+li input[type="checkbox"] {
+  width:40px;
+}
+
+.done-true {
+  text-decoration:line-through;
+  color:gray;
+}
+
+.add-input {
+  width:60%;
+  height:20px;
+  float:left;
+  border:none;
+   padding:40px 0;
+  font-size:2em;
+  font-family:san-serif;
+  text-indent:55px;
+  
+  
+}
+.add-btn{
+  width:40%;
+  border:none;
+  background:brown;
+  padding:0;
+  height:100px;
+  h2 {
+   background:brown;
+   padding:0;
+   font-size:4em;
+   font-family:san-serif;
+   color:lightyellow;
+  }
+}
+
+.clear-btn {
+  width:100%;
+
+  border:none;
+  height:100px;
+  background: brown;
+  font-size: 2em;
+  font-family:san-serif;
+  color:lightyellow;
+  font-style:italic;
+}
